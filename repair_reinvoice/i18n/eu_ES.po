@@ -1,0 +1,51 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* repair_reinvoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-21 10:09+0000\n"
+"PO-Revision-Date: 2026-05-21 12:12+0200\n"
+"Last-Translator: Allan Aguilar <aaguilar@binovo.es>\n"
+"Language-Team: \n"
+"Language: eu_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: repair_reinvoice
+#: model:ir.model,name:repair_reinvoice.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "Kontabilitate-idazpenen itzultzea"
+
+#. module: repair_reinvoice
+#: model:ir.model.fields,field_description:repair_reinvoice.field_repair_order__invoice_count
+msgid "Bill Count"
+msgstr "Fakturak"
+
+#. module: repair_reinvoice
+#: model:ir.model.fields,field_description:repair_reinvoice.field_repair_order__invoiced
+msgid "Invoiced"
+msgstr "Fakturatuta"
+
+#. module: repair_reinvoice
+#: model:ir.model.fields,field_description:repair_reinvoice.field_repair_order__invoice_ids
+#: model_terms:ir.ui.view,arch_db:repair_reinvoice.view_repair_order_form
+msgid "Invoices"
+msgstr "Fakturak"
+
+#. module: repair_reinvoice
+#. odoo-python
+#: code:addons/repair_reinvoice/models/repair_order.py:0
+#, python-format
+msgid "Invoices created"
+msgstr "Sortutako fakturak"
+
+#. module: repair_reinvoice
+#: model:ir.model,name:repair_reinvoice.model_repair_order
+msgid "Repair Order"
+msgstr "Konponketa-agindua"
