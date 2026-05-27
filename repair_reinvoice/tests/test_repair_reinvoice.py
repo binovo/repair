@@ -30,7 +30,7 @@ class TestMrpRepairReinvoice(common.TransactionCase):
                 "invoice_method": "after_repair",
             }
         )
-        domain_location = [("usage", "=", "production")]
+        domain_location = [("usage", "=", "production"), ("company_id", "=", cls.env.company.id)]
         stock_location_id = cls.env["stock.location"].search(domain_location, limit=1)
         cls.repair_line = cls.env["repair.line"].create(
             {
